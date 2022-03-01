@@ -13,7 +13,12 @@ public class PhraseSolver
   private Board game;
   private boolean solved;
   /* your code here - constructor(s) */
-
+  PhraseSolver(){
+    player1 = new Player();
+    player2 = new Player();
+    game = new Board();
+    solved = false;
+  }
   /* your code here - accessor(s) */
 
   /* your code here - mutator(s)  */
