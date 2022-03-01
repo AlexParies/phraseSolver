@@ -12,7 +12,11 @@ public class Player
   private int score;
   /* your code here - constructor(s) */
   Player(){
-    
+    Scanner sc = new Scanner(System.in);
+    System.out.println("What name");
+    name = sc.nextLine();
+    System.out.println("whelcome " + name);
+    score = 0;
   }
   /* your code here - accessor(s) */
 
