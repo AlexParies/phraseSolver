@@ -18,7 +18,7 @@ public class PhraseSolver
     player2 = new Player();
     game = new Board();
     solved = false;
-    
+
   }
   /* your code here - accessor(s) */
 
