@@ -18,6 +18,12 @@ public class Player
     System.out.println("whelcome " + name);
     score = 0;
   }
+
+  Player(String inputName){
+    name = inputName;
+    score = 0;
+    System.out.println("whelcome " + name);
+  }
   /* your code here - accessor(s) */
 
   /* your code here - mutator(s) */
