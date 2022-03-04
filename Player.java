@@ -25,6 +25,18 @@ public class Player
     System.out.println("whelcome " + name);
   }
   /* your code here - accessor(s) */
-
+  public String getName(){
+    //incomplete
+    return null;
+  }
+  public int getScore(){//incomplete
+    return 0;
+  }
   /* your code here - mutator(s) */
+  public void setName(String newName){
+    //incomplete
+  }
+  public void setScore(int newScore){
+    //incomplete
+  }
 }

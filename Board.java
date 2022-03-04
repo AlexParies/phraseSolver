@@ -21,7 +21,14 @@ public class  Board
     System.out.println("SolvedPhrase: " + solvedPhrase); //more test code
   }
   /* your code here - accessor(s) */
-
+  public int getLetterValue(){
+    //incomplete
+    return 0;
+  }
+  public String getSolvedPhrase(){
+    //incomplete
+    return null;
+  }
   /* your code here - mutator(s)  */
 
 
@@ -87,7 +94,15 @@ public class  Board
 
     return tempPhrase;
   }
+/*
+goes through the phrase
+if the phrase equals the guessLetter
+found letter and add to guessLetter
+else {
+  find a new one
+}
 
+*/
   public boolean guessLetter(String guess)
   {
     boolean foundLetter = false;
