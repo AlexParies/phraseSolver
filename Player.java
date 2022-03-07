@@ -27,10 +27,10 @@ public class Player
   /* your code here - accessor(s) */
   public String getName(){
     //incomplete
-    return null;
+    return name;
   }
   public int getScore(){//incomplete
-    return 0;
+    return score;
   }
   /* your code here - mutator(s) */
   public void setName(String newName){
