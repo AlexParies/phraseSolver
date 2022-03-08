@@ -1,7 +1,7 @@
 /*
  * Activity 2.5.2
  *
- * A Board class the PhraseSolverGame
+ * A Board class the PhraseSolverGam
  */
 import java.util.Scanner;
 import java.io.File;

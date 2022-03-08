@@ -1,7 +1,7 @@
 /*
  * Activity 2.5.2
  *
- *  The PhraseSolver class the PhraseSolverGame
+ *  The PhraseSolver class the PhraseSolverGam
  */
 import java.util.Scanner;
 
