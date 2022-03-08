@@ -42,8 +42,8 @@ public class PhraseSolver
       else{
         System.out.println(player2.getName());
       }
-      System.out.println(game.getSgetSolvedPhrase());
-      System.out.println(game.getLgetLetterValue());
+      System.out.println(game.getSolvedPhrase());
+      System.out.println(game.getLetterValue());
 
       /* your code here - determine how game ends */
       solved = true;
