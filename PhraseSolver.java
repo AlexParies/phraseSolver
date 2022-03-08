@@ -1,7 +1,7 @@
 /*
  * Activity 2.5.2
  *
- *  The PhraseSolver class the PhraseSolverGame
+ *  The PhraseSolver class the PhraseSolverGam
  */
 import java.util.Scanner;
 
@@ -42,8 +42,8 @@ public class PhraseSolver
       else{
         System.out.println(player2.getName());
       }
-      System.out.println(game.getSgetSolvedPhrase());
-      System.out.println(game.getLgetLetterValue());
+      System.out.println(game.getSolvedPhrase());
+      System.out.println(game.getLetterValue());
 
       /* your code here - determine how game ends */
       solved = true;

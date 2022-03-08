@@ -34,7 +34,7 @@ public class Player
   }
   /* your code here - mutator(s) */
   public void setName(String newName){
-    //incomplete
+    //incomplet
   }
   public void setScore(int newScore){
     //incomplete
