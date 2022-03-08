@@ -22,7 +22,7 @@ public class Player
   Player(String inputName){
     name = inputName;
     score = 0;
-    System.out.println("whelcome " + name);
+    System.out.println("hi " + name);
   }
   /* your code here - accessor(s) */
   public String getName(){
@@ -34,9 +34,9 @@ public class Player
   }
   /* your code here - mutator(s) */
   public void setName(String newName){
-    //incomplet
+    name = newName;
   }
   public void setScore(int newScore){
-    //incomplete
+    score = newScore;
   }
 }

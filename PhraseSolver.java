@@ -34,16 +34,20 @@ public class PhraseSolver
     boolean correct = true;
     while (!solved)
     {
+      System.out.println("Frase: " + game.getSolvedPhrase());
 
       /* your code here - game logic */
       if (currentPlayer == 1){
-        System.out.println(player1.getName());
+        System.out.println(player1.getName() + ", guess letter/phrase");
       }
       else{
-        System.out.println(player2.getName());
+        System.out.println(player2.getName() + ", guess letter/phrase");
       }
-      System.out.println(game.getSolvedPhrase());
-      System.out.println(game.getLetterValue());
+      System.out.println("The value for this guess: " + game.getLetterValue());
+      String currentGuess = input.nextLine();
+      if (currentGuess.length() ==1){
+        correct = game.guessLetter(currentGuess);
+      }
 
       /* your code here - determine how game ends */
       solved = true;
