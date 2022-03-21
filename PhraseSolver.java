@@ -47,15 +47,15 @@ public class PhraseSolver
 
       String currentGuess = input.nextLine();
 
-      correct = game.guessLetter(currentGuess)
-      solved = game.isSolved(currentGuess)
+      correct = game.guessLetter(currentGuess);
+      solved = game.isSolved(currentGuess);
 
       if (correct) {
         if(currentPlayer == 1){
           player1.setScore(player1.getScore() + game.getLetterValue());
         }
         else{
-          player2.setScore(player2.getScore() = game.getLetterValue());
+          player2.setScore(player2.getScore() + game.getLetterValue());
         }
       }
       else if(!correct && !solved){
